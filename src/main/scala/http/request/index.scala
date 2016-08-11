@@ -83,10 +83,10 @@ object index {
       conn.close
     }
   }
-
-def insertData(conn:Connection, )
-  def main(args: Array[String]): Unit = {
-
-
-  }
 }
+//def insertData(conn:Connection, )
+//  def main(args: Array[String]): Unit = {
+//
+//
+//  }
+//}
