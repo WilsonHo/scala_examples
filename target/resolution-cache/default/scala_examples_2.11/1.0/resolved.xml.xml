@@ -4,7 +4,7 @@
 		module="scala_examples_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160723142333"
+		publication="20160825173328"
 	>
 		<description>
 		scala_examples
@@ -38,5 +38,8 @@
 		<dependency org="org.jsoup" name="jsoup" rev="1.8.3" conf="compile->default(compile)"/>
 		<dependency org="mysql" name="mysql-connector-java" rev="5.1.38" conf="compile->default(compile)"/>
 		<dependency org="org.postgresql" name="postgresql" rev="9.4.1208" conf="compile->default(compile)"/>
+		<dependency org="com.github.azakordonets" name="fabricator_2.10" rev="2.1.2" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-actors" rev="2.11.8" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.4.8" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
